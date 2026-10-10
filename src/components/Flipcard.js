@@ -17,7 +17,7 @@ export default function Flipcard() {
       >
         <div className="rounded-full overflow-hidden shadow-lg absolute inset-0 h-[60vh] max-h-[600px] backface-hidden">
           <Image
-            src="/intro-image.jpg"
+            src="/sanchay.jpg"
             alt="Doctor"
             fill
             loading="eager"
