@@ -5,7 +5,29 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Sanchay Vasdev | Pediatrician",
-  description: "This is about a cute pediatrician and his work.",
+  description: "This is about a Pediatrician's journey and his work.",
+  openGraph: {
+    title: "Sanchay Vasdev | Pediatrician",
+    description: "This is about a Pediatrician's journey and his work.",
+    url: "https://your-domain.vercel.app",
+    siteName: "Sanchay Vasdev | Pediatrician",
+    images: [
+      {
+        url: "/social-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Sanchay Vasdev",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sanchay Vasdev | Pediatrician",
+    description: "This is about a Pediatrician's journey and his work.",
+    images: ["/social-preview.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
